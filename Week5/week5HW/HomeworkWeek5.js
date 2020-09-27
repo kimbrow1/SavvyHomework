@@ -1453,16 +1453,16 @@ const = user9todo
 
 // create a list of 9 todo
 
-const user9Todo = 9todo.filter(todo => todo.userId === 9);
+const user9Todo = todo9.filter(todo => todo.userId === 9);
 console.log(user9todo);
 
-const incompleteTasks = 9todo.filter(
+const incompleteTasks = todo9.filter(
  task => task.completed === false);
  
- console.log(9todo);
+ console.log(todo9);
 
 // List of 5 posts 
-const = 5post 
+const = post5 
 
 [
   {
@@ -2067,8 +2067,8 @@ const = 5post
   }
 ]
 
-const 5post = 5post.filter(body => body.userId === 5);
-console.log(5post);
+const post5 = post5.filter(body => body.userId === 5);
+console.log(post5);
 
-const titleAndBody = 5post.map(user => [user.title, userbody]);
+const titleAndBody = post5.map(user => [user.title, userbody]);
 console.log(titleAndBody)
